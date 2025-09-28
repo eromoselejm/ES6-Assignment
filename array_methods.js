@@ -13,3 +13,17 @@ numbers.forEach(num => console.log(num)); //forEach function runs a particular f
 
 const firstLarge = numbers.find(num => num > 3); // find function returns the first event that satisfies a specific question
 console.log(firstLarge);// 4
+
+let num2 = [1, 2, 3, 4];
+
+num2.push(5); // Add element to end of an array
+console.log(num2);
+
+num2.pop(); // Removes last element of an array
+console.log(num2);
+
+num2.shift(); //Remove first element of an array
+console.log(num2);
+
+num2.unshift(0); //Add element to beginning of an array
+console.log(num2);

@@ -8,3 +8,6 @@ const student = { name: 'John', age: 22 };
 const updated_student = { ...student, age: 23, city: 'Lagos', course: 'Software Engineering' };
 
 console.log(updated_student);
+
+//Spread operators copy the values stored in arrays or objects and allows you to pass its values into
+//another array or object
